@@ -1,6 +1,8 @@
 function arm() {
     let full_name = document.getElementById("full_name").value;
     document.getElementById("full_name_out").innerText = full_name;
+    let name_product = document.getElementById("name_product").value;
+    document.getElementById("name_product_out").innerText = name_product;
     let count1 = parseFloat(document.getElementById("count").value);
     let price1 = parseFloat(document.getElementById("price1").value);
     let price2 = parseFloat(document.getElementById("price2").value);

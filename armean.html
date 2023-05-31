@@ -11,13 +11,14 @@
         <h1>Расчет начальной (максимальной) цены договора методом сопоставимых рыночных цен (анализа рынка)</h1>
         <div class="table">
             <div class="full_name">Введите наименование закупки: <input type="text" id="full_name" placeholder="Закупка"></div>
+            <div class="name_product">Введите наименование закупки: <input type="text" id="name_product" placeholder="Наименование"></div>
             <div class="count">Введите количество товара: <input type="text" id="count" placeholder="Количество"></div>
             <div class="price1">Введите первую цену: <input type="int" id="price1" placeholder="Цена"></div>
             <div class="price2">Введите вторую цену: <input type="int" id="price2" placeholder="Цена"></div>
             <div class="price3">Введите третью цену: <input type="int" id="price3" placeholder="Цена"></div>
             <button onclick="arm()">Вычислить</button>
             <div id="full_name_out"></div>
-            <div id="name_product"></div>
+            <div id="name_product_out"></div>
             <div id="price_middle"></div>
             <div id="finish">Результат!</div>
             <button onclick="out()">Выгрузить в Excel</button>
